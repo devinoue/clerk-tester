@@ -5,7 +5,7 @@ phases:
       nodejs: 16
     commands:
       - yarn
-      - yarn build:${STAGE}
+      - yarn export
 artifacts:
   files:
     - "**/*"
